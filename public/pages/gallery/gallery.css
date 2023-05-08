@@ -1,0 +1,39 @@
+@import url(../../css/style.css);
+
+main {
+  background-color: var(--color-bg-offer);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-title {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--bg-color);
+}
+
+.container-images-grid {
+  /* max-width: 1000px;
+  margin: 0 auto;
+  ma */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+  gap: 1rem;
+}
+
+.container-img-gallery-page {
+  padding: 1rem;
+  width: 500px;
+  height: 400px;
+}
+
+.container-img-gallery-page img {
+  border-radius: 1rem;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
