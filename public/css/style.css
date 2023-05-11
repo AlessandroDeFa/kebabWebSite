@@ -80,13 +80,50 @@ body {
   flex: auto;
   display: grid;
   place-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.pic1 {
+  position: absolute;
+  top: 24rem;
+  right: -10rem;
+  transform: rotate(-10deg);
 }
 
 .kebabimg1 {
   position: absolute;
-  top: 3rem;
-  left: -20rem;
-  transform: rotate(-10deg);
+  top: -13rem;
+  right: -10rem;
+  transform: rotate(-120deg);
+  width: 500px;
+}
+
+.kebabimg1 img {
+  width: 100%;
+}
+
+.pic2 {
+  position: absolute;
+  top: 15rem;
+  left: -30rem;
+  z-index: 0;
+  transform: rotate(-15deg);
+
+
+}
+
+.pic3 {
+  position: absolute;
+  top: 15rem;
+  left: -5rem;
+  z-index: 0;
+  transform: rotate(-25deg);
+  width: 500px;
+}
+
+.pic3 img {
+  width: 100%;
 }
 
 .hero-content {
